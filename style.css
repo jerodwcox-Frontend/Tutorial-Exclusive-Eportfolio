@@ -157,7 +157,9 @@ nav,
   background-color: #242424;
 }
 .dark-theme #personal-logo {
-  filter: none;
+  filter: invert(1);
+  height: 150px;
+  width: 150px;
 }
 .dark-theme .scroll__icon {
   border-color: white;
@@ -201,7 +203,7 @@ nav,
 }
 
 .social__link {
-  background-color: #f06449;
+  background-color: #ea6c53;
   color: white;
   padding: 6px;
   width: 32px;
@@ -283,8 +285,8 @@ nav {
 }
 
 #personal-logo {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   filter: invert(1);
 }
 
