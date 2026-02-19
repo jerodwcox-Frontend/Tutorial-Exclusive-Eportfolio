@@ -62,11 +62,12 @@
         <h1 class="title">Hey</h1>
         <h1 class="title orange">I'm Jerod.</h1>
         <p class="header__para">
-          I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications
-          with great user
-          experiences.
+          I'm a <b class="orange">Frontend Software Engineer</b> focused on building clean, accessible web applications
+          with modern HTML, CSS and JavaScript.
           <br>
-          Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
+          You can dive into my work on <b class="orange">GitHub</b> and see how I think about UX, performance and code structure.
+          <br>
+          For the quick overview and an easy way to reach me, open the <b class="orange click" onclick="toggleModal()">connection card</b>.
         </p>
         <div class="social__list">
           <a href="https://www.linkedin.com/in/jerod-cox-25b2b6345/" target="_blank" class="social__link click">
@@ -94,13 +95,12 @@
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
         <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
         <p class="modal__para">
-          I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience developing
-          websites for top-tech companies like <b class="orange">Google</b> and <b class="orange">Canva</b>.
+          I'm a <b class="orange">frontend software engineer</b> who enjoys turning ideas into responsive, production-ready interfaces.
           <br>
-          I currently solve extremely difficult engineering
-          problems every day with <b class="orange">React</b>, <b class="orange">TypeScript</b> and <b
-            class="orange">MobX</b>
-          in Canva's Video team.
+          I focus on clean, maintainable code, thoughtful interactions, accessibility and small details that make the experience feel polished.
+          <br>
+          Most of my work lives in self-driven projects and experiments you can explore on <b class="orange">GitHub</b> — and if anything stands out,
+          you can reach me instantly through the connection card.
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -148,10 +148,10 @@
       <div class="modal__half modal__contact">
         <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
         <h3 class="modal__title modal__title--contact">
-          Let's have a chat!
+          Connection card
         </h3>
         <h3 class="modal__sub-title modal__sub-title--contact">
-          I'm currently open to new opportunities.
+          Open to software engineering roles, collaborations and freelance projects.
         </h3>
         <form id="contact__form" onsubmit="contact(event)">
           <div class="form__item">
@@ -197,25 +197,26 @@
         <ul class="project__list">
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/google mockup.png" class="project__img" alt="">
+              <img src="./assets/blinker mockup.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Google In-Store
+                  On Track
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS, JavaScript, Vue, Vuex
+                  HTML, CSS, JavaScript
                 </h4>
                 <p class="project__description--para">
-                  Google In-Store is a platform allowing Google retail employees to report any issues with their
-                  store products. Once an issue is reported, it is posted to an API which populates a separate
-                  platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
-                  the sole
-                  front-end developer of this application.
+                  A front-end dashboard exploring layout, component composition and stateful UI patterns using semantic HTML, modern CSS and vanilla JavaScript.
+                  It’s designed to feel sharp and minimal while still being highly readable in the codebase.
+                  If you'd like to walk through the implementation or discuss how I’d build something similar for your team, open the connection card and reach out.
                 </p>
                 <div class="project__description--links">
-                  <a href="https://googleinstore.com.au/" class="project__description--link">
-                    <i class="fas fa-link"></i>
+                  <a href="https://github.com/jerodwcox-Frontend/on-track" target="_blank" class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" onclick="toggleModal()" class="project__description--link">
+                    <i class="fas fa-id-card"></i>
                   </a>
                 </div>
               </div>
@@ -227,21 +228,24 @@
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Frontend Simplified
+                  E‑commerce Storefront
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+                  HTML, CSS, JavaScript
                 </h4>
                 <p class="project__description--para">
-                  Frontend Simplified is a side project built to not only teach people how to code, but teach them how
-                  to get job ready in the quickest way possible. Users of this platform can join my 2,300+ member
-                  community
-                  including engineers from Google, Canva, Atlassian, Apple, Microsoft and Salesforce.
-                  The entire platform and courses was built by myself
-                  and I'm
-                  planning to
-                  release the MVP in the next few weeks.
+                  A front-end prototype for an online store, focused on clear information hierarchy, reusable UI patterns and responsive layout.
+                  This project is where I experiment with product cards, call-to-action sections and interactions that feel intuitive on both desktop and mobile.
+                  If you’re evaluating my skills for a role, this is a great place to see how I structure real-world UI.
                 </p>
+                <div class="project__description--links">
+                  <a href="https://github.com/jerodwcox-Frontend/E-commerce" target="_blank" class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" onclick="toggleModal()" class="project__description--link">
+                    <i class="fas fa-id-card"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </li>
@@ -251,27 +255,26 @@
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  E-Portfolio YouTube Tutorial
+                  E‑portfolio Experiments
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS
+                  HTML, CSS
                 </h4>
                 <p class="project__description--para">
-                  E-Portfolio built to help my social media followers learn basic CSS properties, layout and best
-                  practises -
-                  along with including tips along the way to help them land their first job.
+                  Iterations on this very portfolio, where I refine layout, typography, animation and responsive behaviour.
+                  It’s a living project that I update as my skills grow, and it doubles as a playground for testing out new UI ideas.
+                  If you’d like feedback on the decisions I’ve made here — or want something similar for your team — let’s connect through the card.
                 </p>
                 <div class="project__description--links">
-                  <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
-                    class="project__description--link">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                  <a href="https://github.com/davidbr4gg/davidbr4gg.github.io" target="_blank"
+                  <a href="https://github.com/jerodwcox-Frontend/eportfolio" target="_blank"
                     class="project__description--link">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="https://davidbr4gg.github.io/" target="_blank" class="project__description--link">
+                  <a href="./" target="_blank" class="project__description--link">
                     <i class="fas fa-link"></i>
+                  </a>
+                  <a href="#" onclick="toggleModal()" class="project__description--link">
+                    <i class="fas fa-id-card"></i>
                   </a>
                 </div>
               </div>
@@ -315,7 +318,7 @@
         ">
             Contact
           </a>
-          <a href="./assets/David Bragg Resume.pdf" target="_blank" class="
+          <a href="./assets/Jerod Cox Resume.pdf" target="_blank" class="
           footer__social--link
           link__hover-effect
           link__hover-effect--white
