@@ -295,7 +295,6 @@ nav {
 }
 
 .nav__link {
-  hover: underline;
   margin: 0 12px;
 }
 
@@ -642,6 +641,9 @@ footer {
 .shape {
   position: fixed;
 }
+.shape { pointer-events: none; }
+nav { position: relative; z-index: 10; }
+
 .shape--0 {
   top: 15vh;
   left: 5vw;
