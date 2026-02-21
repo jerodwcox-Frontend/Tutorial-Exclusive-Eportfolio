@@ -295,6 +295,7 @@ nav {
 }
 
 .nav__link {
+  hover: underline;
   margin: 0 12px;
 }
 
@@ -302,8 +303,15 @@ nav {
   font-size: 16px;
   color: #242424;
   font-weight: 700;
+  transition: font-weight 200ms ease;
 }
 
+.nav__link--list .nav__link--anchor:hover {
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: font-weight 200ms ease;
+}
 
 .fa-adjust {
   font-size: 20px;
