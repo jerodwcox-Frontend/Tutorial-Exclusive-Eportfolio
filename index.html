@@ -7,16 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jerod Cox</title>
-  <script src="index.js" defer></script>
+  <script src="index.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon" href="./assets/Jerod Cox(2).svg" type="image/x-icon">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("user_K1PoFs8pB2YVWStDxrUls");
-    })();
-  </script>
+</script>
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "zRgruncrURohueefu",
+      });
+
 </head>
 <body>
   <section id="landing-page" onmousemove="moveBackground(event)">
@@ -149,7 +151,7 @@
           Connection card
         </h3>
         <h3 class="modal__sub-title modal__sub-title--contact">
-          Open to software engineering roles, collaborations and freelance projects.
+          I'm currently open to new software engineering roles, collaborations and freelance projects.
         </h3>
         <form id="contact__form" onsubmit="contact(event)">
           <div class="form__item">
@@ -164,6 +166,7 @@
             <label class="form__item--label">Message</label>
             <textarea class="input" name="message" type="text" required></textarea>
           </div>
+          <input type="hidden" name="to_email" value="dnldfn1976@gmail.com" />
           <button type="submit" id="contact__submit" class="form__submit" form="contact__form">
             Send it my way
           </button>
