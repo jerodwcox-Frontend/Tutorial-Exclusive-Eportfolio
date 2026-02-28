@@ -2,20 +2,6 @@
 // service id: dnldfn1976
 // zRgruncrURohueefu
 
-
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: zRgruncrURohueefu,
-      });
-   })();
-</script>
-
-
-
 let isModalOpen = false;
 let contrastToggle = false;
 const scaleFactor = 1 / 20;
@@ -44,7 +30,6 @@ function toggleContrast() {
 }
 
 function contact(event) {
-  console.log 
   event.preventDefault();
   const loading = document.querySelector(".modal__overlay--loading");
   const success = document.querySelector(".modal__overlay--success");
