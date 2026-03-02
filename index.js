@@ -36,7 +36,7 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
 emailjs.sendForm(
   "dnldfn1976",
-  "template_d9refyl",
+  "template_4s2q2ip",
   event.target
 )
 .then(() => {
